@@ -1,0 +1,57 @@
+{
+  "React Component": {
+    "prefix": "tsrc",
+    "body": [
+      "import * as React from 'react';",
+      "",
+      "type ${1:Component}Props = {",
+      "}",
+      "",
+      "class ${1:} extends React.PureComponent<${1:}Props> {",
+      "    render() {",
+      "        return <div />",
+      "    }",
+      "}",
+      "",
+      "export default ${1:};"
+    ],
+    "description": "Create a React Component with typescript."
+  },
+  "React Styled Component": {
+    "prefix": "tsrsc",
+    "body": [
+      "import * as React from 'react';",
+      "import styled from 'styled-components';",
+      "import { StyledProps } from '@Models';",
+      "",
+      "type ${1:StyledComponent}Props = StyledProps & {",
+      "}",
+      "",
+      "class ${1:} extends React.PureComponent<${1:}Props> {",
+      "    render() {",
+      "        return <div />",
+      "    }",
+      "}",
+      "",
+      "export default styled(${1:})``;"
+    ],
+    "description": "Create a React Component with typescript."
+  },
+  "Jest react test": {
+    "prefix": "jrt",
+    "body": [
+      "import 'jest';",
+      "import * as React from 'react';",
+      "import * as util from '@JestUtil';",
+      "import ${1:} from './';",
+      "",
+      "describe('${1:}', () => {",
+      "    it('renders', () => {",
+      "        util.mount(<${1:} />)",
+      "    });",
+      "});",
+      "",
+    ],
+    "description": "Create a jest test for a React Component."
+  }
+}
