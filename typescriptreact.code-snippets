@@ -17,8 +17,24 @@
     ],
     "description": "Create a React Component with typescript."
   },
-  "React Styled Component": {
+  "React Stateless Component": {
     "prefix": "tsrsc",
+    "body": [
+      "import * as React from 'react';",
+      "",
+      "type ${1:Component}Props = {",
+      "}",
+      "",
+      "const ${1:} = (props: ${1:Component}Props) => (",
+      "   <div />",
+      ")",
+      "",
+      "export default ${1:};"
+    ],
+    "description": "Create a React Component with typescript."
+  },
+  "React Styled Component": {
+    "prefix": "tsrscc",
     "body": [
       "import * as React from 'react';",
       "import styled from 'styled-components';",
@@ -34,6 +50,22 @@
       "}",
       "",
       "export default styled(${1:})``;"
+    ],
+    "description": "Create a React Component with typescript."
+  },
+  "React Stateless Styled Component": {
+    "prefix": "tsrssc",
+    "body": [
+      "import * as React from 'react';",
+      "",
+      "type ${1:Component}Props = {",
+      "}",
+      "",
+      "const ${1:} = styled((props: ${1:Component}Props) => (",
+      "   <div />",
+      "))``",
+      "",
+      "export default ${1:};"
     ],
     "description": "Create a React Component with typescript."
   },
