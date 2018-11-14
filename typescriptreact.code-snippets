@@ -15,7 +15,7 @@
       "",
       "export default ${1:};"
     ],
-    "description": "Create a React Component with typescript."
+    "description": "Create a React component with typescript."
   },
   "React Stateless Component": {
     "prefix": "tsrsc",
@@ -31,43 +31,45 @@
       "",
       "export default ${1:};"
     ],
-    "description": "Create a React Component with typescript."
+    "description": "Create a React stateless component with typescript."
   },
   "React Styled Component": {
     "prefix": "tsrscc",
     "body": [
       "import * as React from 'react';",
       "import styled from 'styled-components';",
-      "import { StyledProps } from '@Models';",
       "",
-      "type ${1:StyledComponent}Props = StyledProps & {",
+      "type ${1:StyledComponent}Props = {",
+      "    className?: string",
       "}",
       "",
       "class ${1:} extends React.PureComponent<${1:}Props> {",
       "    render() {",
-      "        return <div />",
+      "        return <div className={this.props.className} />",
       "    }",
       "}",
       "",
       "export default styled(${1:})``;"
     ],
-    "description": "Create a React Component with typescript."
+    "description": "Create a React styled component with typescript."
   },
   "React Stateless Styled Component": {
     "prefix": "tsrssc",
     "body": [
       "import * as React from 'react';",
+      "import styled from 'styled-components';",
       "",
       "type ${1:Component}Props = {",
+      "    className?: string",
       "}",
       "",
       "const ${1:} = styled((props: ${1:Component}Props) => (",
-      "   <div />",
+      "   <div className={props.className} />",
       "))``",
       "",
       "export default ${1:};"
     ],
-    "description": "Create a React Component with typescript."
+    "description": "Create a React styled stateless component with typescript."
   },
   "Jest react test": {
     "prefix": "jrt",
@@ -82,7 +84,7 @@
       "        util.mount(<${1:} />)",
       "    });",
       "});",
-      "",
+      ""
     ],
     "description": "Create a jest test for a React Component."
   }
