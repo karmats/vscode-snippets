@@ -1,0 +1,11 @@
+{
+    "Http GET seal-ws": {
+        "prefix": "httpget",
+        "body": [
+            "GET http://sealws:8081/seal-ws/$0 HTTP/1.1",
+           "Content-Type: application/json",
+           "X-Session-Token: "
+       ],
+       "description": "Create a GET request to seal-ws"
+   }
+}
