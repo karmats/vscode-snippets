@@ -7,5 +7,10 @@
            "X-Session-Token: "
        ],
        "description": "Create a GET request to seal-ws"
-   }
+   },
+   "Http GET Conected Cloud": {
+        "prefix": "httpget",
+        "body": ["GET https://conncloud-pg-api.azure-api.net/$0 HTTP/1.1", "Content-Type: application/json", "Authorization: Bearer "],
+        "description": "Create a GET request to connected cloud"
+    }
 }
