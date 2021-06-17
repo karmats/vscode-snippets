@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T12:34:47.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="5DdOJZC5DpfSoirAq6uB" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T12:44:53.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="3xRhX4Je-0_Kz7U4NVqe" version="14.7.10" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -7,11 +7,20 @@
         <mxCell id="tDXl1mkvwgeSWRdUdtBI-1" value="admin-collab" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="190" y="280" width="200" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-19" value="Administration" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tDXl1mkvwgeSWRdUdtBI-1">
+          <mxGeometry x="55" y="45" width="90" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="tDXl1mkvwgeSWRdUdtBI-2" value="advisor-dms" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="450" y="280" width="200" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-17" value="Document management system&lt;br&gt;for advisor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tDXl1mkvwgeSWRdUdtBI-2">
+          <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="tDXl1mkvwgeSWRdUdtBI-3" value="client-portal" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="710" y="280" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-18" value="Document management system&lt;br&gt;for clients" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tDXl1mkvwgeSWRdUdtBI-3">
+          <mxGeometry x="10" y="40" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tDXl1mkvwgeSWRdUdtBI-4" value="connected-cloud-api" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="60" width="140" height="130" as="geometry" />
@@ -27,6 +36,48 @@
         </mxCell>
         <mxCell id="tDXl1mkvwgeSWRdUdtBI-9" value="request-api" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="470" y="164" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-10" value="" style="endArrow=classic;html=1;entryX=0.695;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tDXl1mkvwgeSWRdUdtBI-4" target="tDXl1mkvwgeSWRdUdtBI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="280" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-11" value="" style="endArrow=classic;html=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tDXl1mkvwgeSWRdUdtBI-4" target="tDXl1mkvwgeSWRdUdtBI-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="185.7649289099527" as="sourcePoint" />
+            <mxPoint x="339" y="288.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-12" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tDXl1mkvwgeSWRdUdtBI-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="185.7649289099527" as="sourcePoint" />
+            <mxPoint x="730" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-13" value="connected-cloud-shared" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="425" y="490" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-20" value="Shared angular components/services/guards&lt;br&gt;etc for all three projects" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="tDXl1mkvwgeSWRdUdtBI-13">
+          <mxGeometry y="35" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-14" value="" style="endArrow=classic;html=1;exitX=0.215;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tDXl1mkvwgeSWRdUdtBI-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="510" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tDXl1mkvwgeSWRdUdtBI-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="491" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDXl1mkvwgeSWRdUdtBI-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="490" as="sourcePoint" />
+            <mxPoint x="750" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
