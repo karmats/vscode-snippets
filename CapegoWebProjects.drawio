@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T06:11:29.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="17nxogY-_SzX1yDZVSkX" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T08:10:11.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="QTmVw3BD05P3CDVC5rm2" version="14.8.0" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
-    <mxGraphModel dx="1508" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1508" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-1" value="respite" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-1" value="respite" style="swimlane;fillColor=#85BC20;" vertex="1" parent="1">
           <mxGeometry x="100" y="280" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Hb9slEdmjFOCAN-BXh2K-2" value="Apply for tax return being &lt;br&gt;pushed forward" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-1">
           <mxGeometry x="25" y="40" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-3" value="submission" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-3" value="submission" style="swimlane;fillColor=#85BC20;" vertex="1" parent="1">
           <mxGeometry x="320" y="280" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Hb9slEdmjFOCAN-BXh2K-4" value="Submit tax return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-3">
           <mxGeometry x="45" y="40" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-5" value="dashboard" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-5" value="dashboard" style="swimlane;fillColor=#85BC20;" vertex="1" parent="1">
           <mxGeometry x="540" y="280" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Hb9slEdmjFOCAN-BXh2K-6" value="Client list and support page" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-5">
           <mxGeometry x="20" y="45" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-7" value="@capego/shared" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="395" y="50" width="310" height="46" as="geometry" />
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-7" value="@capego/shared" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#E5202E;" vertex="1" parent="1">
+          <mxGeometry x="580" y="50" width="310" height="46" as="geometry" />
         </mxCell>
         <mxCell id="Hb9slEdmjFOCAN-BXh2K-25" value="Common angular components/services/guards&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-7">
           <mxGeometry y="26" width="310" height="20" as="geometry" />
@@ -46,34 +46,58 @@
             <mxPoint x="670" y="239" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-17" value="" style="endArrow=classic;html=1;exitX=0.215;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hb9slEdmjFOCAN-BXh2K-1">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-17" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hb9slEdmjFOCAN-BXh2K-27" target="Hb9slEdmjFOCAN-BXh2K-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="268.75" y="500" as="sourcePoint" />
             <mxPoint x="150" y="379" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hb9slEdmjFOCAN-BXh2K-3">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-18" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.31;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Hb9slEdmjFOCAN-BXh2K-20" target="Hb9slEdmjFOCAN-BXh2K-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="500" as="sourcePoint" />
             <mxPoint x="340" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-20" value="@capego/style" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="500" width="240" height="46" as="geometry" />
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-20" value="@capego/style" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#E5202E;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="240" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-27" value="Common css" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-20">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-27" value="Common css" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFFF;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-20">
           <mxGeometry y="26" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-28" value="checklist" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-28" value="checklist" style="swimlane;fillColor=#85BC20;" vertex="1" parent="1">
           <mxGeometry x="760" y="280" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Hb9slEdmjFOCAN-BXh2K-29" value="Checklist for common tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-28">
           <mxGeometry x="20" y="45" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hb9slEdmjFOCAN-BXh2K-30" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Hb9slEdmjFOCAN-BXh2K-28">
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-30" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.635;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hb9slEdmjFOCAN-BXh2K-25" target="Hb9slEdmjFOCAN-BXh2K-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="580.0017154811717" y="96" as="sourcePoint" />
             <mxPoint x="668.5372803347282" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-31" value="@wk/components" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#007AC3;" vertex="1" parent="1">
+          <mxGeometry x="180" y="500" width="240" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-32" value="Wolters Kluwers PDS components" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-31">
+          <mxGeometry y="26" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hb9slEdmjFOCAN-BXh2K-31" target="Hb9slEdmjFOCAN-BXh2K-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="500" as="sourcePoint" />
+            <mxPoint x="700" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-34" value="@wk/fundamentals" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#007AC3;" vertex="1" parent="1">
+          <mxGeometry x="650" y="495" width="240" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-35" value="Wolters Kluwers PDS fundamentals,&lt;br&gt;such as css, fonts, icons etc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="Hb9slEdmjFOCAN-BXh2K-34">
+          <mxGeometry y="26" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hb9slEdmjFOCAN-BXh2K-36" value="" style="endArrow=classic;html=1;exitX=0.413;exitY=-0.054;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Hb9slEdmjFOCAN-BXh2K-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="490" as="sourcePoint" />
+            <mxPoint x="710" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
